@@ -26,7 +26,7 @@
 
 Cypress.Commands.add('login', () => {
     cy.get('.header_login > .main_header_link > .highlight_button').click()
-    cy.get('[data-testid=email]').type('aleksandra.pocek@gmail.com')
+    cy.get('[data-testid=email]').type('asharanac@gmail.com')
     cy.get('[data-testid=password]').type('Aleksandra123')
     cy.get('[data-testid=submit]').click()
 })
